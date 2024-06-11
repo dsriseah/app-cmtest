@@ -1,0 +1,19 @@
+{
+  "name": "app-cmtest",
+  "version": "1.0.0",
+  "description": "example of using ursys framework to develop a commenting test app inside it",
+  "scripts": {
+    "dev": "node @build-cmtest.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.20.2",
+    "esbuild-plugin-copy": "^2.1.1"
+  },
+  "dependencies": {
+    "@ursys/addons": "file:../_ur_addons",
+    "@ursys/core": "file:../_ur"
+  }
+}
